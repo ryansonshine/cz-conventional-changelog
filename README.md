@@ -1,3 +1,25 @@
+# cz-conventional-changelog Fork without Security Vulnerabilities
+
+A fork of [commitzen/cz-conventional-changelog][0] with latest vulnerability
+fixes for publishing to npm.
+
+This repository was created out of needing a fix for [commitizen/cz-cli#914][1].
+It appears the maintainers [may no longer have access to publish][2] to npm, but
+can still approve/merge bug fixes.
+
+This package will continue to be updated in npm with changes from the upstream
+repository.
+
+## Install
+
+```sh
+npm uninstall cz-conventional-changelog
+npm install --save-dev @ryansonshine/cz-conventional-changelog
+```
+
+[0]:https://github.com/commitizen/cz-conventional-changelog
+[1]:https://github.com/commitizen/cz-cli/issues/914
+[2]:https://github.com/commitizen/cz-cli/issues/897
 # cz-conventional-changelog
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/commitizen/cz-conventional-changelog.svg)](https://greenkeeper.io/)

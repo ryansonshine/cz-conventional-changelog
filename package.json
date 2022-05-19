@@ -1,5 +1,5 @@
 {
-  "name": "cz-conventional-changelog",
+  "name": "@ryansonshine/cz-conventional-changelog",
   "version": "0.0.0-semantically-released.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
@@ -12,13 +12,20 @@
   "homepage": "https://github.com/commitizen/cz-conventional-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/ryansonshine/cz-conventional-changelog.git"
   },
   "engineStrict": true,
   "engines": {
     "node": ">= 10"
   },
   "author": "Jim Cummins <jimthedev@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ryan Sonshine",
+      "email": "ryansonshine@users.noreply.github.com",
+      "url": "https://github.com/ryansonshine"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
@@ -46,5 +53,13 @@
     "commitizen": {
       "path": "./index.js"
     }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
