@@ -14,7 +14,7 @@ repository.
 
 ```sh
 npm uninstall cz-conventional-changelog
-npm install --save-dev @ryansonshine/cz-conventional-changelog
+npm install --save-dev cz-conventional-changelog@npm:@ryansonshine/cz-conventional-changelog
 ```
 
 [0]:https://github.com/commitizen/cz-conventional-changelog
